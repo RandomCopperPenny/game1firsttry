@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="ED?A~?a839]%x!Zu21fC">mySprite</variable><variable type="KIND_SpriteKind" id="z4qps(r]/y.Fb{JivtY[">Player</variable><variable type="KIND_SpriteKind" id="ZS5`9xyZU^l;Sa({/i*5">Projectile</variable><variable type="KIND_SpriteKind" id="%gc/OA9cQ.hD(?7R5Y5D">Food</variable><variable type="KIND_SpriteKind" id="G[Yx!;|$X?sX%PE(IWo4">Enemy</variable></variables><block type="pxt-on-start" id="C$8f^T_|u{^#(*~8IEnh" x="0" y="0"></block><block type="keyonevent" id="I#x;v=%JR@W[~7`FU)Fj" x="-10" y="130"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="run_image_animation" id="pF(iHoVY~D9,87a/^ANZ"><value name="sprite"><block type="variables_get" id="T5U~K5RQ@5zltB6mp!n."><field name="VAR" id="ED?A~?a839]%x!Zu21fC">mySprite</field></block></value><value name="frames"><block type="animation_editor" id="2Et:xEUDWENP=;`MVTS-"><field name="frames">[img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`]</field><data>{"commentRefs":[],"fieldData":{"frames":"2Et:xEUDWENP=;`MVTS-"}}</data></block></value><value name="frameInterval"><shadow type="timePicker" id="99xQzRp$A|pR+I=@Wb5c"><field name="ms">500</field></shadow></value><value name="loop"><shadow type="toggleOnOff" id="frLu(XfC68yQo1eMpQJb"><field name="on">false</field></shadow></value></block></statement></block></xml>
